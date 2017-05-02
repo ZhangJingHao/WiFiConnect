@@ -22,14 +22,10 @@
 		2A1B38BF1EB8B09400297162 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B38A91EB8B09400297162 /* HTTPConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2A1B38C01EB8B09400297162 /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B38AB1EB8B09400297162 /* HTTPResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2A1B38C11EB8B09400297162 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B38AD1EB8B09400297162 /* HTTPServer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2A1B38C21EB8B09400297162 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B38AF1EB8B09400297162 /* bg.png */; };
-		2A1B38C31EB8B09400297162 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B38B01EB8B09400297162 /* index.html */; };
-		2A1B38C41EB8B09400297162 /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B38B11EB8B09400297162 /* jquery.js */; };
-		2A1B38C51EB8B09400297162 /* theadbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B38B21EB8B09400297162 /* theadbg.png */; };
-		2A1B38C61EB8B09400297162 /* titlebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B38B31EB8B09400297162 /* titlebg.png */; };
 		2A1B38C71EB8B09400297162 /* WifiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B38B61EB8B09400297162 /* WifiManager.m */; };
 		2A1B38C81EB8B09400297162 /* WifiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B38B81EB8B09400297162 /* WifiViewController.m */; };
 		2A1B38CB1EB8B10A00297162 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B38CA1EB8B10A00297162 /* Track.m */; };
+		2A1B38CD1EB8B83F00297162 /* docroot in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B38CC1EB8B83F00297162 /* docroot */; };
 		4860633CA8FDCCBB49BF8D67 /* libPods-WiFiConnect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 605F80627A6103D7D5EB73EB /* libPods-WiFiConnect.a */; };
 /* End PBXBuildFile section */
 
@@ -62,17 +58,13 @@
 		2A1B38AB1EB8B09400297162 /* HTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPResponse.m; sourceTree = "<group>"; };
 		2A1B38AC1EB8B09400297162 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
 		2A1B38AD1EB8B09400297162 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
-		2A1B38AF1EB8B09400297162 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
-		2A1B38B01EB8B09400297162 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		2A1B38B11EB8B09400297162 /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
-		2A1B38B21EB8B09400297162 /* theadbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theadbg.png; sourceTree = "<group>"; };
-		2A1B38B31EB8B09400297162 /* titlebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlebg.png; sourceTree = "<group>"; };
 		2A1B38B51EB8B09400297162 /* WifiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiManager.h; sourceTree = "<group>"; };
 		2A1B38B61EB8B09400297162 /* WifiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiManager.m; sourceTree = "<group>"; };
 		2A1B38B71EB8B09400297162 /* WifiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiViewController.h; sourceTree = "<group>"; };
 		2A1B38B81EB8B09400297162 /* WifiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiViewController.m; sourceTree = "<group>"; };
 		2A1B38C91EB8B10A00297162 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
 		2A1B38CA1EB8B10A00297162 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		2A1B38CC1EB8B83F00297162 /* docroot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docroot; sourceTree = "<group>"; };
 		5FBD955CE9469D44AB4E9BEC /* Pods-WiFiConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiConnect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiFiConnect/Pods-WiFiConnect.debug.xcconfig"; sourceTree = "<group>"; };
 		605F80627A6103D7D5EB73EB /* libPods-WiFiConnect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WiFiConnect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F094A25343020669122B9A8 /* Pods-WiFiConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiConnect.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiFiConnect/Pods-WiFiConnect.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,8 +142,8 @@
 		2A1B389A1EB8B09400297162 /* CocoaWebResource */ = {
 			isa = PBXGroup;
 			children = (
+				2A1B38CC1EB8B83F00297162 /* docroot */,
 				2A1B389B1EB8B09400297162 /* CocoaWebResource */,
-				2A1B38AE1EB8B09400297162 /* docroot */,
 				2A1B38B41EB8B09400297162 /* RegexKitLite */,
 			);
 			path = CocoaWebResource;
@@ -180,18 +172,6 @@
 				2A1B38AD1EB8B09400297162 /* HTTPServer.m */,
 			);
 			path = CocoaWebResource;
-			sourceTree = "<group>";
-		};
-		2A1B38AE1EB8B09400297162 /* docroot */ = {
-			isa = PBXGroup;
-			children = (
-				2A1B38AF1EB8B09400297162 /* bg.png */,
-				2A1B38B01EB8B09400297162 /* index.html */,
-				2A1B38B11EB8B09400297162 /* jquery.js */,
-				2A1B38B21EB8B09400297162 /* theadbg.png */,
-				2A1B38B31EB8B09400297162 /* titlebg.png */,
-			);
-			path = docroot;
 			sourceTree = "<group>";
 		};
 		2A1B38B41EB8B09400297162 /* RegexKitLite */ = {
@@ -279,13 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A1B38C41EB8B09400297162 /* jquery.js in Resources */,
-				2A1B38C61EB8B09400297162 /* titlebg.png in Resources */,
-				2A1B38C31EB8B09400297162 /* index.html in Resources */,
 				2A1B38621EB8AC9900297162 /* LaunchScreen.storyboard in Resources */,
+				2A1B38CD1EB8B83F00297162 /* docroot in Resources */,
 				2A1B385F1EB8AC9900297162 /* Assets.xcassets in Resources */,
-				2A1B38C21EB8B09400297162 /* bg.png in Resources */,
-				2A1B38C51EB8B09400297162 /* theadbg.png in Resources */,
 				2A1B385D1EB8AC9900297162 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +496,7 @@
 				2A1B38681EB8AC9900297162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

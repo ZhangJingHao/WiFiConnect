@@ -26,18 +26,18 @@
 {
     NSMutableArray *allTracks = [NSMutableArray array];
     
-    Track *track = [[Track alloc] init];
-    track.title = [Track localWithStr:@"LOC_Music_MusicConnoisseurship"];
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"12309111.mp3"
-                                                     ofType:nil];
-    track.audioFileURL = [NSURL fileURLWithPath:path];
-    [allTracks addObject:track];
+//    Track *track = [[Track alloc] init];
+//    track.title = [Track localWithStr:@"LOC_Music_MusicConnoisseurship"];
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"12309111.mp3"
+//                                                     ofType:nil];
+//    track.audioFileURL = [NSURL fileURLWithPath:path];
+//    [allTracks addObject:track];
     
     NSString *documentsDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
     NSArray *dirContents = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:documentsDir error:nil];
-    NSArray *onlyMusic = [dirContents filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"self ENDSWITH '.mp3'"]];
+//    NSArray *onlyMusic = [dirContents filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"self ENDSWITH '.mp3'"]];
     
-    for (NSString *contentStr in onlyMusic) {
+    for (NSString *contentStr in dirContents) {
         Track *track = [[Track alloc] init];
         track.title = [contentStr substringToIndex:contentStr.length - 4];
         NSString *path = [documentsDir stringByAppendingPathComponent:contentStr];
@@ -50,7 +50,8 @@
 
 + (NSString *)localWithStr:(NSString *)str
 {
-    return NSLocalizedStringFromTable(str, @"MusicLocalizable", nil);
+    
+    return str;
 }
 
 @end
